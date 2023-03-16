@@ -1,0 +1,5 @@
+<h1>{{title}}</h1>
+<h2>Hero:{{myHero}}</h2>
+<!-- <h3 *ngIf="age">{{age}}</h3> -->
+<span>heros:</span><span><ul><li *ngFor="let hero of heros">{{hero}}</li></ul></span>
+<p *ngIf="heros.length > 3">Super Heros Welcome</p>
