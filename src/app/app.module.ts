@@ -7,13 +7,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { IndexComponent } from './index/index.component';
 import { DisplayDataInTemplateComponent } from './components-templates/display-data-in-template/display-data-in-template.component';
 import { DisplayDataInTemplateUrlComponent } from './components-templates/display-data-in-template-url/display-data-in-template-url.component';
+import { TemplateSyntaxComponent } from './components-templates/template-syntax/template-syntax.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
     DisplayDataInTemplateComponent,
-    DisplayDataInTemplateUrlComponent
+    DisplayDataInTemplateUrlComponent,
+    TemplateSyntaxComponent
   ],
   imports: [
     BrowserModule,
